@@ -17,8 +17,51 @@ html {
  */
 
 body {
-  margin: 0;
+  /* margin: 0; */
+    background-image: url(../img/bg5.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
+
+.container {
+width:960px;
+    margin: 0 auto;
+    background-color: #D8D8D8;
+    padding: 1px;
+    
+}
+.container p{
+ margin-top: :50px;
+    margin-bottom: 50px;
+}
+.main-header_avatar{
+    display: block;
+    margin:0 auto;
+     margin-top: -70px;
+    border:3px solid white;
+    border-radius: 999px;
+    box-shadow: :0 0px 2px 1px rgba(0,0,0,0.2); 
+    
+}
+
+.centered-container {
+text-align:center;
+    margin-bottom: 20px;
+
+}
+.main-header{
+background-image: url(../img/banner.jpg);
+ /**
+   * font-weight: 300;
+*font-size: 50px;
+*font-family: 'Open Sans','helvetica',arial,sans-serif;
+*  text-shadow: 0 1px rgba(0,0,0,0.3);
+    **/
+   
+
+}
+    
 
 /* HTML5 display definitions
    ========================================================================== */
